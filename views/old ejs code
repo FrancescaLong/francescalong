@@ -1,0 +1,43 @@
+old ejs code
+
+
+<div id="gallery">
+    <div class="panel-heading">What Is This Vegetable?</div>
+    <figure class="col-md-12 col-sm-12 col-xs-12 ">
+      <a href="https://whatveggie.herokuapp.com/" target="_blank">
+      <img class="img border" src="http://i.imgur.com/7z43xvhl.png?2" alt="" />
+        <figcaption>
+            <h2>What Is This Vegetable?</h2>
+            <p>Identifies lesser-known vegetable and provides pictures, preparation instructions and recipes.</p>
+        </figcaption>
+        </a>
+
+
+        <div class="panel-body">
+          <h4>Show the Description by default!</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper et.</p>
+        </div>
+        <div class="panel-footer text-center">
+          <a href="#download">www.somesite.cz <span class="fa fa-external-link"></span></a>
+        </div>
+
+
+    </figure><figure class="col-md-4 col-sm-4 col-xs-12 ">
+      <a href="https://the-perfect-gift.herokuapp.com/" target="_blank">
+      <img class="img" src="http://i.imgur.com/QmyelLf.png?1" alt="" />
+        <figcaption>
+            <h2>The Perfect Gift</h2>
+            <p>Find a gift for that hard to search for person. Save the ideas to your gift page for each recipient.</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-4 col-sm-4 col-xs-12 ">
+      <a href="https://readitagain.herokuapp.com/" target="_blank">
+      <img class="img" src="http://i.imgur.com/yjIhRY8.png?1" alt="" />
+        <figcaption>
+            <h2>Read It Again</h2>
+            <p>Collect videos of yourself reading to your child so they can hear their favorite books over and over whenever they want.</p>
+        </figcaption>
+        </a>
+    </figure>
+</div>
