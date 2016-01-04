@@ -16,7 +16,7 @@ app.use("/static", express.static("public"));
 
 
 app.get('/', function(req, res) {
-    res.render('views/index.ejs');
+    res.render('index');
 });
 
 /*  Main Listener information - this should be the last thing in the file  */
