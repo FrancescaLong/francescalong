@@ -1,3 +1,7 @@
+body {
+	background-color: yellow;
+}
+
 .border {
   border: thin groove grey 0 !important;
 }
