@@ -5,8 +5,33 @@
 
 @import url("http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #1589C2;
+  background-color: #199E41;
+}
+
+.fontlarge {
+  font-size: 8em;
+}
+
+.fontsmaller {
+  font-size: 5em;
+}
+
+.fontsmallest {
+  font-size: 3em;
+}
+
+.fonttiny {
+  font-size: 2em;
+}
+
+.main {
+  margin-top: 2em;
+  margin-left: 1em;
 }
 
 .panel-image img.panel-image-preview {
@@ -37,11 +62,6 @@ body {
   padding: 0px;
 }
 
-.main {
-  margin: 2em;
-  padding: 2px;
-}
-
 img.center {
   display: block;
   margin-left: auto;
@@ -61,6 +81,9 @@ img.center {
       max-width: 100%;
   }
 
+  .main, .fontlarge, .fontsmall, .fontsmaller, .fonttiny {
+      max-width: 100%;
+  }
 }
 
 
