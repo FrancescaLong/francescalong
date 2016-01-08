@@ -42,7 +42,11 @@ body {
   padding: 2px;
 }
 
-
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media only screen and (max-width: 500px) {
   .panel-image {
@@ -56,6 +60,7 @@ body {
   img.panel-image-preview {
       max-width: 100%;
   }
+
 }
 
 
