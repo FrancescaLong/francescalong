@@ -5,12 +5,13 @@
 
 @import url("http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css");
 
-* {
-  box-sizing: border-box;
-}
+
 
 body {
   background-color: #199E41;
+  background-image: url("http://i.imgur.com/6H32tO3h.jpg");
+  background-size: 100% 100%;
+  
 }
 
 .fontlarge {
@@ -32,6 +33,10 @@ body {
 .main {
   margin-top: 2em;
   margin-left: 1em;
+}
+
+.fontcolor {
+  color: white;
 }
 
 .panel-image img.panel-image-preview {
